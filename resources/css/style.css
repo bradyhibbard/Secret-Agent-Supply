@@ -1,1 +1,54 @@
 /* Styling Sheet*/
+
+html {
+  font-size: 18px;
+  font-family: helvetica;
+
+}
+
+/* Header Section*/
+
+header {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.header-logo {
+  display: flex;
+  width: 960px;
+  margin-left: 8%;
+
+}
+
+header img {
+  height: 1.5rem;
+  padding: 0.66rem 0.5rem
+
+}
+
+header h1 {
+  display: flex;
+  padding-left: 5px;
+  padding-top: 1rem;
+}
+
+/*Main Image Section*/
+
+.main-image {
+  height: 25rem;
+  width: 100%;
+  background-image: url("../images/moto.jpeg");
+}
+
+
+footer {
+  background-color: black;
+  height: 5rem;
+}
+
+footer p {
+  margin-left: 8%;
+  color: white;
+  padding-top: 2rem;
+}
