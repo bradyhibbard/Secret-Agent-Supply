@@ -2,9 +2,15 @@
 
 html {
   font-size: 18px;
-  font-family: helvetica;
 
 }
+
+body {
+  font-size: 18px;
+  font-family: helvetica;
+  line-height: 1.4;
+}
+
 
 /* Header Section*/
 
@@ -12,6 +18,7 @@ header {
   display: flex;
   background-color: black;
   color: white;
+  font-family: helvetica;
 }
 
 .header-logo {
@@ -23,7 +30,7 @@ header {
 
 header img {
   height: 1.5rem;
-  padding: 0.66rem 0.5rem
+  padding: 0.66rem 1rem
 
 }
 
@@ -31,16 +38,115 @@ header h1 {
   display: flex;
   padding-left: 5px;
   padding-top: 1rem;
+  font-family: helvetica;
 }
 
 /*Main Image Section*/
 
-.main-image {
+.main {
+  display: flex;
   height: 25rem;
-  width: 100%;
   background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+.main-image {
+  display: flex;
+  width: 25rem;
+  height: 13rem;
+  margin-top: 9rem;
+  margin-left: 7%;
+
+
+}
+
+.main-text {
+  position: relative;
+  background-color: black;
+  color: white;
+  margin-left: 8%;
+  padding-top: 2.75rem;
+  padding-left: 3rem;
+  font-family: helvetica;
+
+}
+
+.main-text h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding-top: 0.75rem;
+  line-height: 1.4;
+}
+
+/*navigation section*/
+
+nav {
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  font-family: helvetica;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.mobile-container {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px){
+  nav ul {
+    display: none;
+  }
+
+  .mobile-container {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+/*Ecommerce Section*/
+
+.images {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3rem;
+  justify-content: space-between;
+
+}
+
+figure img {
+  display: flex;
+  border: black solid 4px;
+  padding: 2rem 2rem;
+  height: 13rem;
+  padding-right: 3rem;
+  max-width: 8rem;
+  max-height: 9rem;
+}
+
+figcaption {
+  color: white;
+  background-color: black;
+  text-align: center;
+  height: 2rem;
+
+}
+
+figure figcaption {
+  font-family: helvetica;
+  padding-top: 0.5rem;
+}
+/*footer section*/
 
 footer {
   background-color: black;
