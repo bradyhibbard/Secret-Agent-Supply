@@ -115,23 +115,26 @@ nav ul {
 
 /*Ecommerce Section*/
 
-.images {
-  display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 3rem;
-  justify-content: space-between;
+.purchase {
+  width: 90%;
 
 }
 
-figure img {
+.images {
   display: flex;
-  border: black solid 4px;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 10%;
+  margin-top: 3rem;
+}
+
+
+figure img {
   padding: 2rem 2rem;
-  height: 13rem;
   padding-right: 3rem;
-  max-width: 8rem;
-  max-height: 9rem;
+  height: 9rem;
+  max-width: 90%;
+  border: 4px black solid;
 }
 
 figcaption {
@@ -146,15 +149,56 @@ figure figcaption {
   font-family: helvetica;
   padding-top: 0.5rem;
 }
+
+/*Contact Section*/
+
+.contact {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  font-family: helvetica;
+  width: 90%;
+
+}
+
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+
+
+}
+
+.info span {
+  display: block;
+}
+
+.title {
+  margin-bottom: 5%;
+}
+
 /*footer section*/
 
 footer {
   background-color: black;
   height: 5rem;
+  font-family: helvetica;
 }
 
 footer p {
   margin-left: 8%;
   color: white;
   padding-top: 2rem;
+  font-family: helvetica;
 }
